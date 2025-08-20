@@ -13,7 +13,7 @@ Y se ejecuta con este otro:
 Para esto tenemos que tener en cuenta en que carpeta esta guardado los archivos y con el comando **cd** iremos ingresando a las carpetas
 
 
-**Grmaticas**
+# 2. Gramàticas
 
 **Codigo Bison (C)**
 -Para compilar este archivo, promero toca descargar el .zip
@@ -34,7 +34,7 @@ Para esto tenemos que tener en cuenta en que carpeta esta guardado los archivos 
 
 
   
-**3**
+# 3. AFD
 
 1. Hay que ubucarse  en la carpeta donde quedò el proyecto
 
