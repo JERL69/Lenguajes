@@ -29,7 +29,7 @@ Para esto tenemos que tener en cuenta en que carpeta esta guardado los archivos 
 -  Luego pondremos este: ./gramaticas 2 Prueba.txt
 -  El numero que aparece en medio de los nombres de los archivos, se modifica segunla regla gramatical que queramos validar, en este caso es la regla 2 (G2)
 
-**Codigo Python **
+**Codigo Python**
 - Para compilar este archivo, promero toca descargar el .zip
 - Guardarlo
 - Abrir la terminal
