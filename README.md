@@ -32,4 +32,32 @@ Para esto tenemos que tener en cuenta en que carpeta esta guardado los archivos 
 - Luego ponemos este comando: python3 Gramaticas.py 2 Prueba.txt
 -  El numero que aparece en medio de los nombres de los archivos, se modifica segunla regla gramatical que queramos validar, en este caso es la regla 2 (G2)
 
+
   
+**3**
+
+1. Hay que ubucarse  en la carpeta donde quedò el proyecto
+
+Luego hay que entrar así:
+
+**cd /Desktop/AFD**
+Este es un ejemplo si el proyecto quedò en el escritorio
+
+2. Ahora en la misma terminal ejecutamos el programa de la siguiente manera, primero con el C:
+   
+**gcc -o afd afd.c**
+
+3. Luego usaremos este comando:
+
+   **./afd Conf.txt Cadenas.txt**
+Una vez haya ejecutado, se podra visualizar el resultado.
+
+4. Para el Phyton tendremos que hacer algo similar:
+
+- Solo tendremos que poner el siguiente comando en la tuerminal
+.  **python3 afd.py**
+
+Si se quiere modificar las entradas, somo tenemos que entrar al archivo txt directamente y modificarlos manualmente.
+
+
+
