@@ -65,4 +65,42 @@ Una vez haya ejecutado, se podra visualizar el resultado.
 Si se quiere modificar las entradas, somo tenemos que entrar al archivo txt directamente y modificarlos manualmente.
 
 
+**# 4. Calculadora ANTLR**
+
+Para Python
+
+1. Abrir la terminal
+
+2. Crear un entorno virtual de Python
+
+- Esto evita conflictos con la instalación global de Python:
+  
+  python3 -m venv antlr-env
+  
+3. Activar el entorno virtual
+- source antlr-env/bin/activate
+  
+4. nstalar ANTLR runtime para Python
+- /home/Usuraio/Escritorio/antlr/antlr-4.13.2-complete.jar
+
+5. Generar los archivos Python desde la gramática
+- java -jar /home/Usuario/antlr/antlr-4.13.2-complete.jar -Dlanguage=Python3 -visitor LabeledExpr.g4
+
+6. Ejecutar el programa
+- python Calc.py
+  
+7.Salir del entorno virtual
+
+Cuando terminemos de trabajar: deactivate
+
+
+Para java
+
+1. Decidimos cual queremos ejecutary ponemos la ruta Caso java
+- cd CalculadoraEjerciciosantlr/javaCalcula
+2.  Para la compilacion de los archivos Java seria:
+- javac -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" *.java
+3. para ejecutar:
+- java -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" Calc test.txt
+
 
