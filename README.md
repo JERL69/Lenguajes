@@ -107,7 +107,7 @@ Para java
 
 **SEGUNDO CORTE**
 
-# 1. Arbol
+# 1. Árbol
 
 1. Antes de ejecutar el código, necesitas tener instalados:
 
