@@ -65,7 +65,7 @@ Una vez haya ejecutado, se podra visualizar el resultado.
 Si se quiere modificar las entradas, somo tenemos que entrar al archivo txt directamente y modificarlos manualmente.
 
 
-**# 4. Calculadora ANTLR**
+# 4. Calculadora ANTLR
 
 Para Python
 
@@ -102,5 +102,23 @@ Para java
 - javac -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" *.java
 3. para ejecutar:
 - java -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" Calc test.txt
+
+
+
+**SEGUNDO CORTE**
+
+# 1. Arbol
+
+1. Antes de ejecutar el código, necesitas tener instalados:
+
+- Python 3.8+
+- Las siguientes librerías de Python:
+  bash
+  pip install networkx matplotlib pydot
+
+2. El paquete Graphviz (necesario para pydot):
+   - sudo apt install graphviz
+3. Para correr el programa:
+   - python main.py
 
 
