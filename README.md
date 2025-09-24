@@ -121,7 +121,7 @@ Para java
 3. Para correr el programa:
    - python main.py
 
-# 2. Caldora
+# 2. Calculadora
 
 1. Decidimos cual queremos ejecutary ponemos la ruta Caso java
 - cd CalculadoraEjerciciosantlr/javaCalcula
