@@ -121,4 +121,17 @@ Para java
 3. Para correr el programa:
    - python main.py
 
+# 2. Caldora
+
+1. Decidimos cual queremos ejecutary ponemos la ruta Caso java
+- cd CalculadoraEjerciciosantlr/javaCalcula
+2.  Para la compilacion de los archivos Java seria:
+- javac -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" *.java
+3. para ejecutar:
+- java -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" Calc test.txt
+
+
+
+
+
 
