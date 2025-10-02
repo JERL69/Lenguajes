@@ -130,8 +130,7 @@ Para java
 3. para ejecutar:
 - java -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" Calc test.txt
 
+# 3. Primeros, Siguientes y Predicción
 
-
-
-
-
+- Para Ejecutar este archivo, primero hay que descargar el .ZIP que se llama PSP
+- Luego de eso, ejecutar el progrma con el siguiente comando python3 algoritmo.py
